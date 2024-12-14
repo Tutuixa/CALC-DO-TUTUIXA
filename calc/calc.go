@@ -14,8 +14,10 @@ func Calc() {
 
 	var sum int = num1 + num2
 	var sub int = num1 - num2
+	var div int = num1 / num2
 
 	f.Println("Resultado")
 	f.Println("Soma:", sum)
 	f.Println("Subtração:", sub)
+	f.Println("Divisão:", div)
 }
